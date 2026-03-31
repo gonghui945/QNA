@@ -14,35 +14,19 @@ compare with more classical covariance-spectrum diagnostics.
 
 - `analysis/`
   - `src/`: data download, metric construction, robustness, and figure/table export scripts
-  - `notebooks/`: the main exploratory notebook used to organize the revised empirical workflow
+  - `qfe_revision_analysis_workbook.ipynb`: the main exploratory notebook used to organize the revised empirical workflow
   - `requirements.txt`: minimal Python dependencies
 - `data/`
   - `raw/market_data/`: daily local CSV files for the stable-panel market sample
   - `processed/`: processed metric outputs used in the revised manuscript
   - `reference/`: ticker universe and event-catalog reference files
-- `paper/`
-  - `manuscript/`: latest journal-style LaTeX manuscript, class file, and compiled PDF
-  - `figures/`: final figures used in the paper
-  - `tables/`: final LaTeX tables used in the paper
-- `arxiv/`
-  - an arXiv/preprint-ready version of the latest manuscript with journal branding removed
 
 ## What is included
 
-- The latest revised manuscript in QFE journal style
-- A separate arXiv-ready preprint version
 - Reproducible analysis scripts and notebook
 - Reference files and processed outputs
 - The raw stable-panel daily market CSV files used for the current revision
 
-## What is intentionally excluded
-
-This GitHub package does **not** include:
-
-- peer-review PDFs
-- response-to-reviewers and cover-letter files
-- submission-system packaging artifacts
-- rendered preview thumbnails and LaTeX build byproducts
 
 ## Quick start
 
@@ -63,15 +47,6 @@ Rebuild processed metrics, figures, and manuscript tables:
 ```bash
 python analysis/src/build_revision_outputs.py
 ```
-
-## Manuscript files
-
-- Journal-style manuscript:
-  - `paper/manuscript/QNA-QFE-revised.tex`
-  - `paper/manuscript/QNA-QFE-revised.pdf`
-- arXiv/preprint version:
-  - `arxiv/main.tex`
-  - `arxiv/main.pdf`
 
 ## Data note
 
