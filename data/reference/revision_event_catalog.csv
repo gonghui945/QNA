@@ -1,0 +1,7 @@
+event_label,event_date,event_type,notes
+Fed rate liftoff,2022-03-16,macro,First Fed hike of the 2022 tightening cycle and a broad discount-rate repricing event.
+Jackson Hole speech,2022-08-26,macro,Hawkish policy repricing around the Jackson Hole address.
+US tariff announcement,2025-02-18,policy,Initial tariff announcement retained from the original manuscript as the first stage of the 2025 tariff episode.
+Reciprocal tariff escalation,2025-04-02,policy,Second-stage tariff escalation used to test whether QEWS detects renewed dependence reconfiguration.
+Placebo window A,2023-06-06,placebo,Calm-period placebo date after the regional-bank stress episode.
+Placebo window B,2024-06-07,placebo,Calm-period placebo date with limited movement across QNA and classical spectral benchmarks.
